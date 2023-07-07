@@ -1,0 +1,53 @@
+@media only screen and (max-width: 720px) {
+  /* CSS rules specific to small screenshe */
+  .header{
+    height: 12px;
+  }
+  .container {
+    background-color: #ffffff;
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    max-width: 720px;
+    margin: 0 auto;
+    flex-wrap: initial;
+    justify-content: space-between;
+  }
+
+  .container .app {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .container .app .ap {
+    color: orange;
+  }
+  .container .app .lab {
+    color: #242f51;
+  }
+  header nav .navbar {
+    margin-top: 5px;
+    display: inline;
+    text-align: right;
+    margin-left: auto;
+  }
+  nav.navbar {
+    display: flex;
+    width: 360px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  a {
+    text-decoration: none;
+  }
+  .tryforfree {
+    height: 4px;
+    width: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    background-color: blue;
+    color: #ffff;
+    font-weight: 100;
+  }
+}
