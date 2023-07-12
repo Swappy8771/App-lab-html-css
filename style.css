@@ -67,14 +67,18 @@ a {
 /* Media Query for Mobile Devices */
 
 
-
-
-
-
 /*best app*/
+.bestapppp
+{
+background-image: url(./pics/section1/header-bg.jpg);
+height: 860px;
+width: 100%;
+}
+
 .best-app {
   background-image: url(./pics/section1/header-bg.jpg);
-  height: 660px;
+  height: 860px;
+  width: 100%;
 }
 .left_best_app apps-in-world {
   border: none;
@@ -89,7 +93,7 @@ a {
 .left_best_app .modern-lifestyle {
   font-size: 47.7px;
   color: #242f51;
-  font-weight: bolder;
+  font-weight: 700;
 }
 .left_best_app .to-do {
   font-size: 18px;
@@ -143,10 +147,6 @@ p.apps-in-world {
 
 
 /*trusted companies */
-.trusted {
-  /* padding:50px; */
-
-}
 
 .trusted p{
   font-size: 16px;
@@ -157,9 +157,10 @@ p.apps-in-world {
 
 .trusted .image_container {
   display: flex;
-  margin-top: 10px;
+  
   width: 100%;
-  padding: 65px;
+  padding-top: 5rem;
+  padding-bottom:5rem ;
   justify-content: space-evenly;
 }
 
@@ -172,59 +173,92 @@ p.apps-in-world {
   justify-content: center;
   width: 100%;
 }
-.awesome_right {
-  width: 400px;
+.awesome_app .awesome_right{
+  margin-left:50px;
 }
-.awesome_app .awesome_phone img {
-  height: 710px;
+.awesome_app .awesome_phone img{
+  height: 709px;
   width: 538px;
-}
-.awesome_app .awesome-head {
-  font-size: 36px;
-  color: #242f51;
-  font-weight: bold;
-}
-.icon-details {
-  display: flex;
-  margin: 20px;
+  margin-top: 100px;
 }
 
-.icon-details .disc {
-  /* margin-top: 20px; */
 
-  text-align: left;
+  
+.awesome_app .awesome_right .disc .ikd-tikd{
+  margin-bottom: 10px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
-.icon-details .disc .fast-per {
-  /* padding: 10px ; */
+.awesome_app .awesome_right .disc .ikd-tikd22{
+  margin-bottom: 10px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
-.awesome_app .awesome_right .icon-details .fastimg{
+.awesome_app .awesome_right .disc .ikd-tikd33{
+  margin-bottom: 10px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.awesome_app .awesome_right .disc .ikd-tikd33 .get-blood
+{
+  margin-left: 25px;
+  display: block;
+  font-size: 16px;
+  color: #616368;
  
 }
-.awesome_app .icon-details .fast-per {
+.awesome_app .awesome_right .disc .ikd-tikd22 .get-blood
+{
+  margin-left: 25px;
+  display: block;
+  font-size: 16px;
+  color: #616368;
+  
+}
+.awesome_app .awesome_right .disc .ikd-tikd .get-blood
+{
+  margin-left: 25px;
+  display: block;
+  font-size: 16px;
+  color: #616368;
+  
+}
+.awesome_app .awesome_right .awesome-head{
+  color: #242F51;
+  font-weight: 700;
+  font-size: 2.0736rem;
+  margin-bottom: 15px;
+}
+
+
+
+
+.awesome_app .awesome_right .disc .fast-per {
+  margin-top: 30px;
+  text-align: center;
   font-size: 20px;
   color: #f85767;
   font-weight: bold;
 }
-.awesome_app .icon-details .prototyping {
+.awesome_app .awesome_right .disc .prototyping {
+  margin-top: 30px;
   font-size: 20px;
   color: #2563ff;
   font-weight: bold;
+  text-align: center;
 }
-.awesome_app .icon-details .vector {
+.awesome_app .awesome_right .disc .vector {
+  margin-top: 30px;
   font-size: 20px;
   color: #40975f;
   font-weight: bold;
 }
-.awesome_app .icon-details .get-blood {
-  font-size: 16px;
-  color: #616368;
-}
 
-.awesome_phone .awesome_right .icon-details {
-  flex: auto;
-}
-.awesome_right {
-}
+
 
 /*smart_jack*/
 .smart_jack {
@@ -263,6 +297,16 @@ p.apps-in-world {
   color: #f85767;
   font-weight: bold;
 }
+.auto-blood-pay .fastleft img{
+  margin-right: 130px;
+}
+.auto-blood-pay .network-effect img{
+  margin-right: 130px;
+}
+.auto-blood-pay .bigger-awards img{
+  margin-right: 130px;
+}
+
 .auto-blood-pay .network-effect .network-blood {
   font-size: 20px;
   color: #2563ff;
@@ -273,7 +317,12 @@ p.apps-in-world {
   color: #40975f;
   font-weight: bold;
 }
-.text-center {
+/* .auto-blood-pay .fastleft img{
+  display: inline-block; 
+  text-align: left;
+} */
+.auto-blood-pay .fastleft img{
+  /* float: left; */
 }
 
 .auto-blood-pay .fastleft .blood-test {
@@ -321,10 +370,10 @@ p.apps-in-world {
 .design-built .design_right .mobile_device {
   font-size: 16px;
   color: #616368;
-  padding-top: 30px;
+
 }
 .design-built .design_right .buttoonlearn{
- align-content: left;
+ box-align: left;
   height: 40px;
   width: 140px;
   cursor: pointer;
@@ -368,7 +417,9 @@ p.apps-in-world {
   font-size: 14px;
   color: #616368;
 }
-
+.sample_container .App_get_your_blood .App_Development .appimg{
+  margin-left: 160px;
+}
 /*ultimate Features*/
 .ultimate_rise {
   text-align: center;
@@ -377,14 +428,12 @@ p.apps-in-world {
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
-  
 }
 .ultimate_rise .left-content .heading-feature .section-title {
   font-size: 28px;
   color: #242f51;
   font-weight: bolder;
    text-align:left;
-   
 }
 .ultimate_rise .left-content .heading-feature .section-description {
   font-size: 16px;
@@ -409,6 +458,10 @@ p.apps-in-world {
 }
 .ultimate_rise .flex-off-features .ultimate_blood_test .App_Development{
   text-align: left;
+}
+.ultimate_rise .flex-off-features img{
+  /* margin-left:0; */
+  margin-right: 165px;
 }
 
 .ultimate_rise .flex-off-features {
@@ -463,8 +516,8 @@ p.apps-in-world {
 
 .toggle-label {
   display: inline-block;
-  width: 90px;
-  height: 45px;
+  width: 100px;
+  height: 40px;
   background-color: #ccc;
   border-radius: 15px;
   cursor: pointer;
@@ -473,17 +526,17 @@ p.apps-in-world {
 
 .toggle-label {
   display: inline-block;
-  width: 50px;
-  height: 30px;
+  width: 60px;
+  height: 25px;
   background-color: #ccc;
-  border-radius: 15px;
+  border-radius: 14px;
   cursor: pointer;
   position: relative;
 }
 
 
 input[type="checkbox"] {
-  height: 0;
+  height: 0px;
   width: 0;
   visibility: hidden;
 }
@@ -491,7 +544,7 @@ input[type="checkbox"] {
 label {
   cursor: pointer;
   text-indent: -9999px;
-  width: 90px;
+  width: 20px;
   height: 40px;
   background: grey;
   display: block;
@@ -502,13 +555,14 @@ label {
 label:after {
   content: "";
   position: absolute;
-  top: 5px;
+  top: 7px;
   left: 5px;
-  width: 40px;
-  height: 40px;
+  bottom:9px;
+  width: 10px;
+  height: 12px;
   background: #fff;
   border-radius: 90px;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 input:checked + label {
@@ -630,8 +684,9 @@ padding-right: 25px;
 .right_client{
   margin-left: 20px; 
 }
-.right_client .head_client
+.right_client .meetup .head_client
 {
+ margin-top: 50px;
   font-size: 31px;
   color:#242f51;
   font-weight: bold;
@@ -640,7 +695,23 @@ padding-right: 25px;
   border-radius: 48%;
 }
 .right_client .img-desc{
+  
+  margin-top: 20px;
+}
+.right_client .img-desc .zoltanceo{
   display: flex;
+  align-content: space-between;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.right_client .frnduser{
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.right_client .two-one{
+  display: flex;
+  width: 100%;
 }
 .head_client {
 }
@@ -671,6 +742,8 @@ details p {
   max-width: 80rem;
   margin: 0 auto;
   padding: 3rem;
+
+
 }
 
 summary {
@@ -683,6 +756,7 @@ summary::before {
   content: "+";
   position: absolute;
   left: -1.5rem;
+  text-align: center;
 }
 
 details[open] summary::before {
@@ -690,14 +764,14 @@ details[open] summary::before {
 }
 
 summary:hover {
-  color: rgb(39, 59, 187);
+  color:#242f51;
 }
 
 
 /*solution*/
 
 details[open] p {
-  background-color: #c5c3c7;
+  background-color: #F5F7FA ;
   padding: 3rem;
 }
 
@@ -788,7 +862,7 @@ details[open] p {
 /*Media css*/
 
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 480px) {
   .header {
     height: 80px;
   }
@@ -825,11 +899,7 @@ details[open] p {
     padding: 10px 0;
   }
   
-  .tryforfree {
-    height: 30px;
-    width: 120px;
-    font-size: 12px;
-  }
+
  
     .best-app {
       height: 400px;
@@ -870,25 +940,28 @@ details[open] p {
       font-size: 14px;
     }
     
-    #sec1img {
-      height: auto;
-      width: 100%;
-    }
+ 
    
+
+    /* Trusted Companies */
       .trusted {
         padding: 20px;
       }
-    
       .trusted p {
+        margin-top: 350px;
         font-size: 14px;
         padding: 0 20px;
       }
-    
       .trusted .image_container {
-        flex-wrap: wrap;
-        padding: 20px;
+        display: flex;
+        flex-direction: column; /* Arrange flex items vertically */
+        align-items: center; /* Center align flex items horizontally */
+        padding-top: 5rem; 
       }
-    
+      .trusted .image_container img {
+        margin-bottom: 2rem; /* Add spacing between flex items */
+      }
+
         .awesome_app {
           padding: 10px;
           flex-direction: column;
@@ -941,7 +1014,387 @@ details[open] p {
         .awesome_phone .awesome_right .icon-details {
           flex: initial;
         }
-      
-      
+
+
+        /* 
+        Smart jack */
+        .smart_jack
+
+        {
+          text-align:center;
+          display:flex;
+          align-items:center;
+          justify-content:space-eveenly;
+          width:100%;
+          height:500px;
+         }
+        .smartjack_left .love-this
+        {
+         font-size:30px;
+         text-align: left;
+         color: #242f51;
+         font-weight: bolder;
+         margin-left: 20px;
+         }
+.smartjack_right .mobile-device {
+  text-align: left;
+  font-size: 16px;
+  margin-left: 10px;
+}
+/* auto blood pay */
+.auto-blood-pay {
+  text-align: center;
+  display: flex;
+  flex-direction:column;
+  flex: 25%;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+
+/* Design built */
+.design-built {
+  text-align: center;
+  padding: 110px;
+  display: flex;
+ flex-direction:column;
+  align-items: center;
+  justify-content: flex flex-start;
+  width: 100%;
+}
+.design-built .design_left {
+  text-align: left;
+  /* padding-left: 150px; */
+}
+.design-built .design_left img {
+  height: 405px;
+  width: 443px;
+  margin-right: 350px;
+}
+.design-built .design_right{
+  padding-left: 0px;
+  margin-right: 150px;
+}
+
+.design-built .design_right .integration {
+  text-align: left;
+  padding-top: 0px;
+  font-size: 36px;
+  color: #242f51;
+  font-weight: bolder;
+}
+
+.design-built .design_right .mobile_device {
+  font-size: 16px;
+  color: #616368;
+
+}
+.design-built .design_right .buttoonlearn{
+ box-align: left;
+  height: 40px;
+  width: 140px;
+  cursor: pointer;
+  border-radius: 40px;
+  border: none;
+  background-color: blue;
+  color: #ffff;
+  font-weight: 600;
+}
+
+/*Choose app*/
+.heading-app {
+  /* padding: 60px; */
+  text-align: center;
+}
+
+.heading-app .our_app {
+  margin-left: 10px;
+  font-size: 36px;
+  color: #242f51;
+  font-weight: bolder;
+}
+.choose_app_bootom .mobile-device {
+  font-size: 16px;
+  color: #616368;
+}
+
+/*container_sample*/
+
+.sample_container .container_blood {
+  display: flex;
+  /* grid-template-rows: 300px 300px 300px;
+  gap: 80px;
+  justify-content: center;
+  grid-column-gap: 0px; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  padding: 20px;
+}
+.sample_container .App_get_your_blood .App_Development {
+  font-size: 20px;
+  color: #242f51;
+  font-weight: bolder;
+}
+.sample_container .App_get_your_blood .blood-test {
+  font-size: 14px;
+  color: #616368;
+}
+.sample_container .App_get_your_blood .App_Development .appimg{
+  margin-left: 160px;
+}
+
+
+
+/*ultimate Features*/
+.ultimate_rise {
+  text-align: center;
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.ultimate_rise .left-content .heading-feature .section-title {
+  font-size: 28px;
+  color: #242f51;
+  font-weight: bolder;
+   text-align:center;
+}
+.ultimate_rise .left-content .heading-feature .section-description {
+  font-size: 16px;
+  color: #616368;
+  text-align: center;
+}
+.ultimate_rise .left-content .see-all-button
+{
+  align-content: left;
+  height: 40px;
+  width: 140px;
+  cursor: pointer;
+  border-radius: 40px;
+  border: none;
+  background-color: blue;
+  color: #ffff;
+  font-weight: 600;
+}
+.ultimate_rise  .sectionrise{
+  padding:30px;
+  text-align: left;
+}
+.ultimate_rise .flex-off-features .ultimate_blood_test .App_Development{
+  text-align: left;
+}
+.ultimate_rise .flex-off-features img{
+  /* margin-left:0; */
+  margin-right: 165px;
+}
+
+.ultimate_rise .flex-off-features {
+  display:flex ;
+  /* grid-template-rows: 280px 280px;
+  grid-template-columns: 280px 280px;
+  gap: 50px; */
+  flex-direction: column;
+  padding: 20px;
+ /* margin-left: 70px; */
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-description {
+  text-align: left;
+}
+.flex-off-features h3 {
+  padding-top: 30px;
+  margin: 0px 0p 2px 5px;
+}
+.ultimate_rise .right-section img {
+  height: 481px;
+  width: 429px;
+}
+
+/* Price cards */
+
+.cardssection {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding:20px;
+  text-align: center;
+}
+.cardssection .item1 .month49{
+padding-top: 50px;
+padding-bottom: 50px;
+padding-left: 25px;
+padding-right: 25px;
+}
+.cardssection .item2 .month99{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.cardssection .item2 .dragg
+{
+  list-style-type: none;
+  line-height: 2.5rem;
+}
+.cardssection .item1 .dragg
+{
+  list-style-type: none;
+  line-height: 2.5rem;
+}
+.cardssection .month49 .head-business
+{
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #242f51;
+}
+.cardssection .month99 .head-business
+{
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #242f51;
+}
+.cardssection .month99 .small{
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #7d7987;
+}
+.cardssection .month49 .big{
+  font-size: 1rem;
+  font-weight: 200;
+  color: #7d7987;
+}
+.cardssection .item1 .month49 .rupees{
+  font-size: 2.4882rem;
+  font-weight: 700;
+  color: #242f51;
+}
+.cardssection .item2 .month99 .rupees{
+  font-size: 2.4882rem;
+  font-weight: 700;
+  color: #242f51;
+}
+
+.item1{
+  width: 280px;
+  height: 500px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.item2{
+  width: 300px;
+  height: 520px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Meet client sfs*/
+.client_sfs {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+ height: 1200px;
+}
+.client_sfs .left_client img {
+  height: 336px;
+  width: 443px;
+}
+.clientimg {
+
+}
+.right_client{
+  margin-left: 20px; 
+}
+.right_client .meetup .head_client
+{
+ margin-top: 50px;
+  font-size: 31px;
+  color:#242f51;
+  font-weight: bold;
+  padding:8px;
+
+}
+.right_client .img-desc .specimg{
+  border-radius: 48%;
+}
+.right_client .img-desc{
+  
+  margin-top: 20px;
+}
+.right_client .img-desc {
+  display: flex;
+  align-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+ 
+}
+.right_client .frnduser{
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.right_client .two-one{
+   display: flex;
+   width: 100%;
+}
+.head_client {
+}
+.client_sfs .right_client .the-mobile-device {
+  margin-right: 40px;
+}
+.client_sfs .right_client .bring-to{
+  margin-right: 15px;
+  padding-right: 10px;
+}
+.img-fluid {
+}
+
+    /* Download the app */
+
+.download_our_app .container-app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 830px;
+  justify-content: space-around;
+}
+.download_our_app .container-app .left-appcontainer .download {
+  font-size: 36px;
+  color: #242f51;
+  font-weight: bold;
+  margin-left: 20%;
+}
+.download_our_app .container-app .left-appcontainer .down-rise-blood {
+  font-size: 16px;
+  color: #616368;
+  margin-right: 20%;
+}
+.download_our_app .container-app .left-appcontainer .images-down {
+  align-items: center;
+  margin-right: 100px;
+}
+.download_our_app .container-app .right-appcontainer img {
+  height: 359px;
+  width: 632px;
+}
+
   }
 
