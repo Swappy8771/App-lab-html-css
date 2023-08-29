@@ -342,7 +342,7 @@ p.apps-in-world {
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: flex flex-start;
+  justify-content: center;
 }
 .design-built .design_left {
   text-align: left;
